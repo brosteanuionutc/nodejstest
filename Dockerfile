@@ -5,6 +5,7 @@ RUN mkdir /app
 WORKDIR /app
 
 RUN npm install --production
+RUN npm install express
 
 COPY . .
 
